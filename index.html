@@ -17,7 +17,8 @@
                 
         /* theme */
                     @import url(style/style.css);
-                    @import url(style/style2.css);
+                    /* @import url('http://css.wikidot.com/theme:standard-yellow/code_'); */
+                    @import url(style/style_wikidot_yellow.css);
             </style>
     
             <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -64,7 +65,9 @@
     </div>
     <div id="search-top-box" class="form-search">
     <form id="search-top-box-form" action="dummy" class="input-append">
-        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="Search this site" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"><input class="button btn" type="submit" name="search" value="Search">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="Search this site"> 
+        <input class="button btn" type="submit" name="search" value="Search">
+        
     </form>
 </div>
   </div>
@@ -85,9 +88,9 @@
         
 
 <ul class="nav navbar-nav">
-<li><a href="http://dnd5e.wikidot.com/main:about">About <span class="fa fa-info-circle"><span style="white-space: pre-wrap;">&nbsp;</span></span></a></li>
-<li><a href="http://dnd5e.wikidot.com/system:join">Membership <span class="fa fa-user"><span style="white-space: pre-wrap;">&nbsp;</span></span></a></li>
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Help Docs <span class="fa fa-question-circle"><span style="white-space: pre-wrap;">&nbsp;</span></span></a>
+<li><a href="http://dnd5e.wikidot.com/main:about" >About <img src="style/info.png" width="13" height="13"><span style="white-space: pre-wrap;">&nbsp;</span></span></a></li>
+<li><a href="http://dnd5e.wikidot.com/system:join">Membership <img src="style/person.png" width="13" height="13"> <span style="white-space: pre-wrap;">&nbsp;</span></span></a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Help Docs <img src="style/question_mark.png" width="13" height="13"><span style="white-space: pre-wrap;">&nbsp;</span></span></a>
 <ul class="dropdown-menu">
 <li>r Guide</a></li>
 <li>First Time User</a></li>
@@ -100,7 +103,7 @@
 <li>CSS Themes</a></li>
 </ul>
 </li>
-<li class="dropdown admins-only"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-cog"><span style="white-space: pre-wrap;">&nbsp;</span></span></a>
+<!-- <li class="dropdown admins-only"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-cog"><span style="white-space: pre-wrap;">&nbsp;</span></span></a> -->
 <ul class="dropdown-menu">
 <li>Site Manager</a></li>
 <li>Edit Top Bar</a></li>
