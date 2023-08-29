@@ -1,6 +1,6 @@
 # Sorcerer-Rift-Stowaway-DND-5th-Edition
 ## This project is inspired by the Dungeons and Dragons community and content. 
-The link for the main page of the homebrew class can be found here -> [Sorcerer - Rift Stowaway]()
+The link for the main page of the homebrew class can be found here -> [Sorcerer - Rift Stowaway](https://andre702.github.io/Sorcerer-Rift-Stowaway-DND-5th-Edition/) \
 As an author of this text I do not claim any rights to the graphics and linked content used in this project, nor to any of the contents of Dungeons & Dragons official playbooks and rules created by Wizzards of The Coast\
 
 The site template is a copy of an Dnd5e Wikidot page and it is being distributed under [attribution-sharealike 3.0 unported](https://creativecommons.org/licenses/by-sa/3.0/legalcode) licence  \
